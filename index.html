@@ -15,6 +15,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Ativar/Desativar JS-->
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="home">
@@ -33,8 +35,8 @@
     </div>
   </header>
 
-  <main class="introducao-bg">
-    <div class="introducao container">
+  <main class="introducao-bg ">
+    <div class="introducao container fadeInUp" data-anime='20'>
       <div class="introducao-conteudo">
         <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
@@ -189,6 +191,9 @@
     </div>
   </footer>
 
+  <!--Scripts Javascript-->
+
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
